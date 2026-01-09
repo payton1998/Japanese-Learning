@@ -13,6 +13,7 @@
 		B42EEB5E2F11779100A98042 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B42EEB5D2F11779100A98042 /* Preview Assets.xcassets */; };
 		B42EEB602F11779100A98042 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42EEB5F2F11779100A98042 /* Persistence.swift */; };
 		B42EEB632F11779100A98042 /* Japanese_Learn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B42EEB612F11779100A98042 /* Japanese_Learn.xcdatamodeld */; };
+		B4598FCF2F11C5FE0026020C /* Vocab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4598FCE2F11C5F40026020C /* Vocab.swift */; };
 		B4CDAC332F11B60900468065 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4CDAC322F11B60900468065 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,8 @@
 		B42EEB5D2F11779100A98042 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B42EEB5F2F11779100A98042 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		B42EEB622F11779100A98042 /* Japanese_Learn.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Japanese_Learn.xcdatamodel; sourceTree = "<group>"; };
+		B4598FCE2F11C5F40026020C /* Vocab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vocab.swift; sourceTree = "<group>"; };
+		B4598FD02F11C7970026020C /* VocabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabItem.swift; sourceTree = "<group>"; };
 		B4CDAC322F11B60900468065 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		B4CDAC342F11BB6000468065 /* Vocabulary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Vocabulary.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +61,7 @@
 		B42EEB552F11778E00A98042 /* Japanese-Learn */ = {
 			isa = PBXGroup;
 			children = (
+				B4598FCD2F11C5A70026020C /* View */,
 				B4CDAC312F11B04C00468065 /* Models */,
 				B42EEB562F11778E00A98042 /* Japanese_LearnApp.swift */,
 				B42EEB582F11778E00A98042 /* ContentView.swift */,
@@ -78,10 +82,27 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		B4CDAC312F11B04C00468065 /* Models */ = {
+		B4598FCD2F11C5A70026020C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B4598FCE2F11C5F40026020C /* Vocab.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4598FD12F11C7C60026020C /* Data */ = {
 			isa = PBXGroup;
 			children = (
 				B4CDAC342F11BB6000468065 /* Vocabulary.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B4CDAC312F11B04C00468065 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B4598FD12F11C7C60026020C /* Data */,
+				B4598FD02F11C7970026020C /* VocabItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -158,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B42EEB602F11779100A98042 /* Persistence.swift in Sources */,
+				B4598FCF2F11C5FE0026020C /* Vocab.swift in Sources */,
 				B42EEB592F11778E00A98042 /* ContentView.swift in Sources */,
 				B42EEB572F11778E00A98042 /* Japanese_LearnApp.swift in Sources */,
 				B42EEB632F11779100A98042 /* Japanese_Learn.xcdatamodeld in Sources */,

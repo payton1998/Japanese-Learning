@@ -1,0 +1,82 @@
+[
+  {
+    "id": "001",
+    "word": "猫",
+    "reading": "ねこ",
+    "correctMeaning": "cat",
+    "choices": ["cat", "dog", "bird", "fish"],
+    "tags": ["JLPT N5", "animals"]
+  },
+  {
+    "id": "002",
+    "word": "犬",
+    "reading": "いぬ",
+    "correctMeaning": "dog",
+    "choices": ["dog", "cat", "rabbit", "horse"],
+    "tags": ["JLPT N5", "animals"]
+  },
+  {
+    "id": "003",
+    "word": "食べる",
+    "reading": "たべる",
+    "correctMeaning": "to eat",
+    "choices": ["to eat", "to drink", "to sleep", "to run"],
+    "tags": ["JLPT N5", "verbs"]
+  },
+  {
+    "id": "004",
+    "word": "飲む",
+    "reading": "のむ",
+    "correctMeaning": "to drink",
+    "choices": ["to drink", "to eat", "to write", "to read"],
+    "tags": ["JLPT N5", "verbs"]
+  },
+  {
+    "id": "005",
+    "word": "本",
+    "reading": "ほん",
+    "correctMeaning": "book",
+    "choices": ["book", "pen", "notebook", "paper"],
+    "tags": ["JLPT N5", "objects"]
+  },
+  {
+    "id": "006",
+    "word": "学校",
+    "reading": "がっこう",
+    "correctMeaning": "school",
+    "choices": ["school", "office", "library", "hospital"],
+    "tags": ["JLPT N5", "places"]
+  },
+  {
+    "id": "007",
+    "word": "走る",
+    "reading": "はしる",
+    "correctMeaning": "to run",
+    "choices": ["to run", "to walk", "to jump", "to swim"],
+    "tags": ["JLPT N5", "verbs"]
+  },
+  {
+    "id": "008",
+    "word": "水",
+    "reading": "みず",
+    "correctMeaning": "water",
+    "choices": ["water", "milk", "juice", "tea"],
+    "tags": ["JLPT N5", "food & drink"]
+  },
+  {
+    "id": "009",
+    "word": "赤い",
+    "reading": "あかい",
+    "correctMeaning": "red",
+    "choices": ["red", "blue", "green", "yellow"],
+    "tags": ["JLPT N5", "colors"]
+  },
+  {
+    "id": "010",
+    "word": "青い",
+    "reading": "あおい",
+    "correctMeaning": "blue",
+    "choices": ["blue", "red", "black", "white"],
+    "tags": ["JLPT N5", "colors"]
+  }
+]
