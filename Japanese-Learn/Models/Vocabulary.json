@@ -1,0 +1,18 @@
+[
+  {
+    "id": "001",
+    "word": "猫",
+    "reading": "ねこ",
+    "correctMeaning": "cat",
+    "choices": ["cat", "dog", "bird", "fish"],
+    "tags": ["JLPT N5", "animals"]
+  },
+  {
+    "id": "002",
+    "word": "食べる",
+    "reading": "たべる",
+    "correctMeaning": "to eat",
+    "choices": ["to eat", "to drink", "to sleep", "to run"],
+    "tags": ["JLPT N5", "verbs"]
+  }
+]
